@@ -89,9 +89,10 @@ header h1 {
 
 header p {
   position: absolute;
-  top: 230px;  /* adjust as needed */
+  top: 190px;  /* about 30px under name */
   left: 20px;
   margin: 0;
 }
+
 
 
