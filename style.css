@@ -8,11 +8,14 @@ body {
 }
 
 header {
-  background: #0077cc;
+  background: url('banner.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: left;
   color: white;
-  padding: 30px 0;
-  text-align: center;
+  padding: 60px 20px;
+  position: relative;
 }
+
 
 nav {
   display: flex;
