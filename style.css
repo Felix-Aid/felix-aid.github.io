@@ -69,9 +69,10 @@ footer {
   object-fit: cover;
   position: absolute;
   bottom: -75px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30px; /* 👈 moves it to the left */
+  transform: none; /* 👈 remove horizontal centering */
 }
+
 
 header h1 {
   margin-top: 100px; /* pushes name down to make space for pic */
