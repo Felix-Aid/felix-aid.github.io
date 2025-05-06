@@ -71,9 +71,9 @@ footer {
   border: 4px solid white;
   object-fit: cover;
   position: absolute;
-  bottom: -75px;
-  left: 30px; /* 👈 moves it to the left */
-  transform: none; /* 👈 remove horizontal centering */
+  top: 20px;   /* 👈 move to top */
+  left: 20px;  /* 👈 move to left */
+  transform: none;
 }
 
 
