@@ -1,8 +1,4 @@
 title: "Felix Stephen Aidoo | Data Blog"
-description: "Insights, projects, and tutorials in Data Science and AI"
 theme: minima
 permalink: /blog/:year/:month/:day/:title.html
-
-plugins:
-  - jekyll-feed
 
