@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Blog"
+title: "blog"
 ---
 
 # Welcome to My Data Science Blog
