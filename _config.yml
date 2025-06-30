@@ -1,4 +1,4 @@
-title: "Felix Stephen Aidoo | Data Blog"
+title: "Felix Stephen Aidoo's Data Blog"
 theme: minima
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title
 
