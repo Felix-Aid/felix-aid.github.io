@@ -1,5 +1,4 @@
 ---
----
 layout: default
 title: "📘 Blog"
 ---
@@ -15,4 +14,5 @@ Explore articles, tutorials, and project insights.
     </li>
   {% endfor %}
 </ul>
+
 
