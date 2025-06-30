@@ -1,0 +1,3 @@
+title: "Felix Stephen Aidoo | Data Blog"
+theme: jekyll-theme-cayman
+permalink: /:categories/:year/:month/:day/:title.html
