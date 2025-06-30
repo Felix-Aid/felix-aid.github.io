@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -45,11 +49,13 @@ body {
   margin-top: 180px;
   margin-left: 180px;
   font-size: 1.1rem;
+  max-width: 620px;
 }
 
 nav {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   background: #333;
 }
 
@@ -107,6 +113,10 @@ footer {
   margin-bottom: 8px;
 }
 
+.project-meta {
+  margin: 12px 0 0;
+}
+
 .project a {
   color: #007acc;
   text-decoration: none;
@@ -114,4 +124,35 @@ footer {
 
 .project a:hover {
   text-decoration: underline;
+}
+
+.opportunity {
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .banner1 {
+    min-height: auto;
+    padding: 40px 20px 30px;
+    text-align: center;
+  }
+
+  .profile-pic {
+    position: static;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .banner1 p {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  nav a {
+    padding: 12px 16px;
+  }
+
+  section {
+    padding: 20px 16px;
+  }
 }
